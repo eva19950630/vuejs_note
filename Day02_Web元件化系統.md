@@ -24,6 +24,10 @@ var vm = new Vue ({
 
 上方為宣告一個vue instance，變數名稱為vm，vm是view model的簡稱，Vue Instance的設計概念來自[MVVM Pattern](https://msdn.microsoft.com/en-us/library/hh848246.aspx)。
 
+Vue的MVVM架構如下圖，View與Model之間的溝通就透過ViewModel來互相傳遞資訊：
+
+<img src="picture/2_mvvm.png">
+
 Web元件化系統是Vue.js最大的特色，Vue在執行創建到銷毀Vue Instance的時候會跑一個Lifecycle，下一篇我們會介紹Instance Lifecycle，後面文章中還會說明在Vue當中關於Vue.Component的語法與實作。
 
 -----
@@ -32,3 +36,4 @@ Web元件化系統是Vue.js最大的特色，Vue在執行創建到銷毀Vue Inst
 * [Vue.js官網](https://vuejs.org/)
 * [Vue.js 學習筆記總整理 - Vue Instance](https://cythilya.github.io/2017/04/11/vue-instance/)
 * [vue & vuex 07 - component - I (元件拆解，合併，靜態資料引用)](https://ithelp.ithome.com.tw/articles/10185457)
+* [Vue js 大型專案架構](https://www.slideshare.net/hinablue/vue-js)

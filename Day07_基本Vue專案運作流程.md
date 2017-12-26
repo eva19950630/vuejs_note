@@ -1,8 +1,8 @@
-# Day07 - 基本Vue語法運作原理
+# Day07 - 基本Vue專案運作流程
 
-在大致了解以webpack樣板建置的專案架構後，我們接下來來了解整個app運作原理
+在大致了解以webpack樣板建置的專案架構後，我們接下來來了解整個app運作原理。
 
-當我們下npm run dev這個指令後，啟動http server，這個指令會同時開啟根目錄下的index.html與src資料夾內的main.js這兩個檔案
+當我們下**npm run dev**這個指令後，啟動http server，這個指令會同時開啟根目錄下的index.html與src資料夾內的main.js這兩個檔案
 
 <img src="picture/7_運作原理1.png">
 

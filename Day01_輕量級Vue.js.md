@@ -10,10 +10,10 @@
 
 * 輕量
 * MVC架構
-* Web元件化系統
-* Two-way Binding(雙向綁定)
-* Directives(模板語法)
+* Componenets(Web元件化系統)
 * Virtual DOM：V-Node(Vue.js 2.0後才有)
+* Directives(模板語法指令)
+* Two-way Binding(資料雙向綁定)
 
 Vue.js提倡輕量，是一個蠻新的網頁框架，如果有Node.js或AngularJS等開發經驗，在上手Vue.js這個框架應該會蠻快的，這30天系列會將我學習Vue.js的歷程記錄下來，以下是我這30天的規劃。
 
