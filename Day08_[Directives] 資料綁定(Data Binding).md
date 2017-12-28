@@ -57,7 +57,7 @@ export default {
 ### `v-text`
 
 * 用途：更新被指定元素的`textContent`，也就是該元素的整個內容都會被更新，如果想要更新部分內容，就需要使用雙大括號`{{ }}`。
-* 接受值：`string`
+* 表達式：`string`
 * 用法：
 
 ```html
@@ -89,7 +89,7 @@ var vm = new Vue({
 ### `v-html`
 
 * 用途：更新被指定元素的`innerHTML`，內容以普通HTML語法插入，不會作為Vue模板來進行編譯。
-* 接受值：`string`
+* 表達式：`string`
 * 用法：
 
 ```html

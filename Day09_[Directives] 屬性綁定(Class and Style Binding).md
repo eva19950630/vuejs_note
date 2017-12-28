@@ -44,7 +44,7 @@ var vm = new Vue({
 
 #### `.camel` (2.1.0版本後才有)
 
-若屬性名稱為kebab-case命名法，指得是有`-`分隔，可以使用`.camel`，即可將屬性名稱改成camelCase命名法(駝峰式)，但是如果一開始建立專案時選擇的樣板是有包含vue-loader或vueify的編譯器(ex. Webpack)，就不需使用`.camel`來轉換屬性名稱了。
+若屬性名稱為kebab-case命名法，指的是有`-`分隔，可以使用`.camel`，即可將屬性名稱改成camelCase命名法(駝峰式)，但是如果一開始建立專案時選擇的樣板是有包含vue-loader或vueify的編譯器(ex. Webpack)，就不需使用`.camel`來轉換屬性名稱了。
 
 ```html
 <svg :view-box.camel="viewBox"></svg>
@@ -310,4 +310,3 @@ var vm = new Vue({
 * [Vue.js (7) - HTML 的 Class 與 Style 屬性綁定](http://blog.tonycube.com/2017/04/vuejs-7-html-class-style.html)
 * [Vue.js: 屬性綁定 v-bind、Class 與 Style 綁定](https://cythilya.github.io/2017/04/21/vue-v-bind-class-and-style/)
 * [Styling with Inline CSS Styles in Vue.js](https://codingexplained.com/coding/front-end/vue-js/styling-inline-css-styles)
-
