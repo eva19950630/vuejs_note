@@ -150,8 +150,8 @@ var vm = new Vue ({
 -----
 
 ### 參考資料
-* [Vue - v-show](https://vuejs.org/v2/api/index.html#v-show)
-* [Vue - Conditional Rendering](https://vuejs.org/v2/guide/conditional.html)
-* [Vue - List Rendering](https://vuejs.org/v2/guide/list.html#v-for-with-v-if)
+* [Vue.js - v-show](https://vuejs.org/v2/api/index.html#v-show)
+* [Vue.js - Conditional Rendering](https://vuejs.org/v2/guide/conditional.html)
+* [Vue.js - List Rendering](https://vuejs.org/v2/guide/list.html#v-for-with-v-if)
 * [Vue.js (3) - 指令 (Directives) 與過濾器 (Filters)](http://blog.tonycube.com/2017/03/vuejs-3-directives-filters.html)
 * [Vue.js: 條件渲染 v-if、v-show](https://cythilya.github.io/2017/04/22/vue-conditional-rendering/)

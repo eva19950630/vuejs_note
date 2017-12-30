@@ -166,7 +166,7 @@ slice() | 切割陣列，傳回一個新陣列。
 -----
 
 ### 參考資料
-* [Vue - v-for](https://vuejs.org/v2/api/index.html#v-for)
-* [Vue - List Rendering](https://vuejs.org/v2/guide/list.html)
+* [Vue.js - v-for](https://vuejs.org/v2/api/index.html#v-for)
+* [Vue.js - List Rendering](https://vuejs.org/v2/guide/list.html)
 * [Vue.js: 列表渲染 v-for](https://cythilya.github.io/2017/04/27/vue-list-rendering/)
 * [Vue2.0 v-for 中 :key 到底有什么用？](https://www.zhihu.com/question/61064119)

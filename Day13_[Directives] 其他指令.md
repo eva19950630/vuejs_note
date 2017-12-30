@@ -77,5 +77,5 @@ var vm = new Vue ({
 -----
 
 ### 參考資料
-* [Vue API](https://vuejs.org/v2/api/index.html)
+* [Vue.js API](https://vuejs.org/v2/api/index.html)
 * [Vue.js (3) - 指令 (Directives) 與過濾器 (Filters)](http://blog.tonycube.com/2017/03/vuejs-3-directives-filters.html)
