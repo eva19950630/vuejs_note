@@ -1,4 +1,4 @@
-# Day14 - [選項物件屬性] filters & computed
+# Day14 - [Options] filters & computed
 
 常常我們想要對資料做處理的時候，會寫一些function去跑，然後顯示出想要的結果，而為了讓模板(View)可以專注在顯示資料，Vue有設計兩個選項物件屬性，`filters`跟`computed`，可以在這些屬性裡面將資料格式化處理或有運算邏輯的function，如此一來，View不會包含這些function，版面看起來會簡潔許多。
 
@@ -84,7 +84,18 @@ var vm = new Vue ({
 
 ## `computed`(計算屬性)
 
-`computed`的功能很強大，可以對資料做處理計算，而且它有cache，能避免重複處理資料，跟`filters`一樣，也是在`computed`裡放入`function`，不同的是，`computed`可以做比較複雜的資料處理，資料處理完之後就將資料回傳。
+假設我們把程式邏輯寫在View中...
+
+```html
+<div id="app">
+    <p>原始訊息：{{ message }}</p>
+    <p>反轉訊息：{{ message.split('').reverse().join('') }}</p>
+</div>
+```
+
+這還只是將文字倒轉的功能寫在View當中，當邏輯一多一複雜下去，模板裡就會寫很多function，如此一來就違反讓View專注在顯示資料的規則，變得很不簡潔。
+
+這個`computed`的功能很強大，可以對資料做處理計算，而且它有cache，能避免重複處理資料，跟`filters`一樣，也是在`computed`裡放入`function`，不同的是，`computed`可以做比較複雜的資料處理，資料處理完之後就將資料回傳。
 
 `computed`可以透過`this`從`data`取得資料並拿來做運算，兩者有相依性，`data`資料改變，`computed`也會更新。
 
@@ -113,31 +124,7 @@ var vm = new Vue ({
 
 * [run on JSFiddle](https://jsfiddle.net/eva19950630/oap0gvur/)
 
-範例2：使用`computed`做資料排序
-
-```html
-<div id="app">
-    <ul>
-        <li v-for="item in sortedNumber">{{ item }}</li>
-    </ul>
-</div>
-```
-
-```javascript
-var vm = new Vue({
-    el: '#app',
-    data: {
-        numberArray: [2, 8, 3, 6, 12, 7, 9 ,5]
-    },
-    computed: {
-        sortedNumber() {
-            return this.numberArray.sort;
-        }
-    }
-});
-```
-
-範例3：使用`computed`做文章摘要
+範例2：使用`computed`做文章摘要
 
 當我們做網頁，想把一段文字縮短成幾個字，後面部分以...代替，也可以使用`computed`來做。
 
