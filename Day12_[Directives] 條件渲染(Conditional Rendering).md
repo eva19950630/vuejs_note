@@ -62,7 +62,7 @@ setInterval(function() {
 }, 2000)
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/uz3o9zy0/1/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/uz3o9zy0/2/)
 
 #### 2. `v-if` & `v-else-if` & `v-else`混合使用：
 
@@ -88,7 +88,7 @@ var vm = new Vue({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/w968so8r/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/w968so8r/1/)
 
 ### `v-if` vs `v-show`
 
@@ -122,7 +122,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/7yn746vo/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/7yn746vo/1/)
 
 範例2：
 
@@ -143,7 +143,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/sqyqj5wh/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/sqyqj5wh/1/)
 
 前面我們知道很多directives的功能了，像是資料或屬性綁定、事件處理、列表或條件的渲染，下一篇我們再介紹幾個比較不常用，但是在某些時候使用很方便的directives。
 

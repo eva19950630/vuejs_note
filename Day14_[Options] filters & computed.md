@@ -42,7 +42,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/cc77auLr/1/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/cc77auLr/2/)
 
 2. 全局過濾器(global filter)
 
@@ -68,7 +68,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/22bpnnk3/1/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/22bpnnk3/2/)
 
 #### `filters`可以用`|`串聯：
 
@@ -122,7 +122,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/oap0gvur/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/oap0gvur/1/)
 
 範例2：使用`computed`做文章摘要
 
@@ -151,7 +151,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/4z5vgzae/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/4z5vgzae/2/)
 
 ## `filters` vs `computed`
 

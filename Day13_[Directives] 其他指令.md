@@ -27,7 +27,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/u2j0nu6k/1/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/u2j0nu6k/2/)
 
 ### `v-cloak`
 

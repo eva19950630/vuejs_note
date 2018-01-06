@@ -47,7 +47,7 @@ var vm = new Vue ({
 });
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/hbo9oy8f/)
+* [run on JSFiddle](https://jsfiddle.net/eva19950630/hbo9oy8f/1/)
 
 ## `watch` vs `computed`
 
