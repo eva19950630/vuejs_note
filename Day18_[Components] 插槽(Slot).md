@@ -44,7 +44,7 @@ var vm = new Vue ({
 })
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/gqmtg42p/1/)
+* [run on JSFiddle][1]
 
 我們會發現在HTML裡面`<child></child>`裡面包的內容沒有顯示，主要是因為它們被我們自定義好的子元件下的`template`給取代掉了，但是當我們有用`slot`，這種情況就可以避免。
 
@@ -75,7 +75,7 @@ var vm = new Vue ({
 })
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/e7n2j4tn/)
+* [run on JSFiddle][2]
 
 我們加入`<slot></slot>`後，發現原本寫在HTML的`<child>`裡面的內容就會出現了，`{{ msg }}`收到的資料為我們定義在vue instance裡面的data資料。
 
@@ -106,7 +106,7 @@ new Vue ({
 })
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/ps7mxx1o/)
+* [run on JSFiddle][3]
 
 #### 2. 具名插槽(Named Slots)
 
@@ -116,7 +116,7 @@ new Vue ({
 
 範例：用**Named Slots**就很適合做網頁的navbar與footer。
 
-```html
+`html
 <div id="app">
     <child>
         <p slot="header">Header</p>
@@ -124,7 +124,7 @@ new Vue ({
         <p slot="footer">Footer</p>
     </child>
 </div>
-```
+`
 
 ```javascript
 Vue.component('child', {
@@ -146,9 +146,9 @@ new Vue ({
 })
 ```
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/h9gdtzg7/)
+* [run on JSFiddle][4]
 
-> 註：如果你要在`template`下放入多行程式碼(會分好幾行的意思)，使用「 ' 」會錯誤，可以使用**「 ` 」**。
+> 註：如果你要在`template`下放入多行程式碼(會分好幾行的意思)，使用「 ' 」會錯誤，可以使用**「 \` 」**。
 
 #### 3. 作用域插槽(Scoped Slots)
 
@@ -182,14 +182,24 @@ new Vue ({
 
 > 目前版本2.5.0以上，`scope`已經可以放在其他元素下，不限定要放在`<template>`裡面了。但因為JSFiddle的版本為v2.2.1，所以範例程式還是寫在`<template>`之下。
 
-* [run on JSFiddle](https://jsfiddle.net/eva19950630/ec9r8eqL/)
+* [run on JSFiddle][5]
 
 總結一下，`slot`是元件中一個好用的特殊功能，尤其Vue非常注重元件化，有了`slot`，我們可以在開發網頁上比較有架構，維護上也更方便。
 
------
+---- 
 
 ### 參考資料
-* [Vue.js - Content Distribution with Slots](https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots)
-* [Vue.js: Slot](https://cythilya.github.io/2017/10/11/vue-component-slot/)
-* [Vue.js (9.2) - 元件(Component)](http://blog.tonycube.com/2017/05/vuejs-9-2-component.html)
-* [vue & vuex 09 - component - III (slot 在元件上鑽洞)](https://ithelp.ithome.com.tw/articles/10185618)
+* [Vue.js - Content Distribution with Slots][6]
+* [Vue.js: Slot][7]
+* [Vue.js (9.2) - 元件(Component)][8]
+* [vue & vuex 09 - component - III (slot 在元件上鑽洞)][9]
+
+[1]:	https://jsfiddle.net/eva19950630/gqmtg42p/1/
+[2]:	https://jsfiddle.net/eva19950630/e7n2j4tn/
+[3]:	https://jsfiddle.net/eva19950630/ps7mxx1o/
+[4]:	https://jsfiddle.net/eva19950630/h9gdtzg7/
+[5]:	https://jsfiddle.net/eva19950630/ec9r8eqL/
+[6]:	https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+[7]:	https://cythilya.github.io/2017/10/11/vue-component-slot/
+[8]:	http://blog.tonycube.com/2017/05/vuejs-9-2-component.html
+[9]:	https://ithelp.ithome.com.tw/articles/10185618

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>resolutionData</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>Day01_輕量級Vue.js.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44811797</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day02_Web元件化系統.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812202</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day03_Instance Lifecycle.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812202</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day04_Virtual DOM &amp; V-Node.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812298</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day05_建立環境與新增專案.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812298</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day06_熟悉Webpack專案架構.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812298</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day07_基本Webpack專案運作流程.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812405</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day08_[Directives] 資料綁定(Data Binding).md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812095</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day09_[Directives] 屬性綁定(Class and Style Binding).md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.448125</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day10_[Directives] 事件處理(Event Handling).md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.448125</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day11_[Directives] 列表渲染(List Rendering).md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812405</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day12_[Directives] 條件渲染(Conditional Rendering).md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812405</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day13_[Directives] 其他指令.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.448125</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day14_[Options] filters &amp; computed.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812596</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day15_[Options] watch.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812596</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day16_[Components] 元件建立與註冊.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812596</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day17_[Components] 元件組合與溝通.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812703</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day18_[Components] 插槽(Slot).md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44812703</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day19_[Components] 動態元件(Dynamic Components).md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536999080.23978901</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+			<key>Day20_[Components] 狀態管理 - Vuex.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813299</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day21_Vuex應用1 - 計數器.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813299</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day22_Vuex應用2 - todo list.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813299</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day23_Vuex應用3 - 購物車.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813395</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day24_[整合後端Laravel] 環境建置與架構.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813395</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day25_[整合後端Laravel] 運作流程.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813502</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day26_[整合後端Laravel] Laravel Artisan.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813502</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day27_[專案-簡易留言板] 登入功能.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813895</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day28_[專案-簡易留言板] 新增文章功能.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44813895</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day29_[專案-簡易留言板] 回覆文章功能.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44814003</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>Day30_[專案-簡易留言板] 編輯文章功能.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44814301</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>README.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>536949040.44814301</real>
+				<key>version</key>
+				<dict>
+					<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+		</dict>
+		<key>sheetOrder</key>
+		<real>536949044.432423</real>
+	</dict>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>Day01_輕量級Vue.js.md</string>
+		</array>
+		<array>
+			<string>Day08_[Directives] 資料綁定(Data Binding).md</string>
+		</array>
+		<array>
+			<string>Day02_Web元件化系統.md</string>
+		</array>
+		<array>
+			<string>Day03_Instance Lifecycle.md</string>
+		</array>
+		<array>
+			<string>Day04_Virtual DOM &amp; V-Node.md</string>
+		</array>
+		<array>
+			<string>Day05_建立環境與新增專案.md</string>
+		</array>
+		<array>
+			<string>Day06_熟悉Webpack專案架構.md</string>
+		</array>
+		<array>
+			<string>Day07_基本Webpack專案運作流程.md</string>
+		</array>
+		<array>
+			<string>Day12_[Directives] 條件渲染(Conditional Rendering).md</string>
+		</array>
+		<array>
+			<string>Day11_[Directives] 列表渲染(List Rendering).md</string>
+		</array>
+		<array>
+			<string>Day09_[Directives] 屬性綁定(Class and Style Binding).md</string>
+		</array>
+		<array>
+			<string>Day10_[Directives] 事件處理(Event Handling).md</string>
+		</array>
+		<array>
+			<string>Day13_[Directives] 其他指令.md</string>
+		</array>
+		<array>
+			<string>Day14_[Options] filters &amp; computed.md</string>
+		</array>
+		<array>
+			<string>Day15_[Options] watch.md</string>
+		</array>
+		<array>
+			<string>Day16_[Components] 元件建立與註冊.md</string>
+		</array>
+		<array>
+			<string>Day17_[Components] 元件組合與溝通.md</string>
+		</array>
+		<array>
+			<string>Day18_[Components] 插槽(Slot).md</string>
+		</array>
+		<array>
+			<string>Day19_[Components] 動態元件(Dynamic Components).md</string>
+		</array>
+		<array>
+			<string>Day20_[Components] 狀態管理 - Vuex.md</string>
+		</array>
+		<array>
+			<string>Day21_Vuex應用1 - 計數器.md</string>
+		</array>
+		<array>
+			<string>Day22_Vuex應用2 - todo list.md</string>
+		</array>
+		<array>
+			<string>Day23_Vuex應用3 - 購物車.md</string>
+		</array>
+		<array>
+			<string>Day24_[整合後端Laravel] 環境建置與架構.md</string>
+		</array>
+		<array>
+			<string>Day25_[整合後端Laravel] 運作流程.md</string>
+		</array>
+		<array>
+			<string>Day26_[整合後端Laravel] Laravel Artisan.md</string>
+		</array>
+		<array>
+			<string>Day28_[專案-簡易留言板] 新增文章功能.md</string>
+		</array>
+		<array>
+			<string>Day27_[專案-簡易留言板] 登入功能.md</string>
+		</array>
+		<array>
+			<string>Day29_[專案-簡易留言板] 回覆文章功能.md</string>
+		</array>
+		<array>
+			<string>Day30_[專案-簡易留言板] 編輯文章功能.md</string>
+		</array>
+		<array>
+			<string>README.md</string>
+		</array>
+	</array>
+	<key>sheetOrder</key>
+	<string>title</string>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+			<integer>3</integer>
+		</dict>
+		<key>sheetOrder</key>
+		<dict>
+			<key>550df2d212682d59274f9a210937c22147c1781563fc047e57ac7542dd2c4cd1</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
