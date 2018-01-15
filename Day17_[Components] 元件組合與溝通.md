@@ -248,10 +248,12 @@ Vue.component('child', {
 
 子元件回應的方式是`Events up`，就是Vue的事件處理，使用`v-on`接收事件觸發並且去呼叫對應函式，對`v-on`的詳細介紹可以去看[Day10](https://ithelp.ithome.com.tw/articles/10194631)的內容，下面我們就來介紹子元件要怎麼使用`events`去回應父元件。
 
-#### 使用`v-on`綁定自定義事件
+#### 一個Vue Instance的`事件介面`(Event Interface)實作方式包含以下兩種：
 
 * 使用`$on(eventName)`監聽事件
 * 使用`$emit(eventName)`觸發事件
+
+在HTML模板中，子元件即使用`v-on`綁定事件。
 
 #### 元件綁定原生事件
 
@@ -260,6 +262,25 @@ Vue.component('child', {
 ```html
 <my-component @click.native="doSomething"></my-component>
 ```
+
+## 非父子元件溝通(global event bus)
+
+如果是兩個子元件要互相溝通，因為元件都是獨立運作在自己作用域的，因此我們可以透過創建一個空的Vue Instance作為事件的總管理線。
+
+```javascript
+// 創建空的Vue Instance "bus"
+var bus = new Vue()
+
+// 觸發A元件中的事件 "id-selected"
+bus.$emit('id-selected', 1)
+
+// 在B元件的 "created" 鉤子中監聽 "id-selected" 這個事件
+bus.$on('id-selected', function(id) {
+    // content
+})
+```
+
+但這只能適用於**小型網站**應用開發，試想如果有很多子元件都透過這樣的方式溝通，會讓這個`bus`管理線變得很繁忙複雜，因此中大型網站官方推薦使用**Vuex**，它是一個狀態管理模式，後面Day20我們會提到關於Vuex的概念與應用。
 
 -----
 
